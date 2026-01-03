@@ -1,0 +1,36 @@
+🍎 macOS Features : Mastering Apple 🐧
+
+Diving into macOS tools . Here's a guide to key features and commands for efficient computing.
+
+macOS File Types & App Store:
+.dmg (Disk Image, mountable).
+.pkg (Installer Package).
+.app (Application bundle).
+App Store: Centralized updates/patches; automatic or manual.
+Uninstallation: Drag .app to Trash.
+
+Apple ID & Backups:
+---Personal Apple ID for data/purchases; corporate uses Managed IDs with MDM.
+---Time Machine: Hourly/daily/weekly backups; deletes oldest when full.
+
+Anti-Virus & System Preferences:
+---No built-in AV; use 3rd-party.
+System Preferences: Like Control Panel—displays, network, printers, privacy, accessibility.
+
+macOS Features:
+--Mission Control/Spaces: View/manage desktops.
+--Keychain: Encrypted password manager.
+--Spotlight: Search files/apps (Command-Space).
+--iCloud: Cross-device sharing/backups.
+--Gestures: Trackpad swipes/pinches.
+--Finder: File manager; remote disc sharing.
+--Dock: App launcher; auto-hide option.
+--Disk Utility: Manage disks/images; verify/repair.
+--FileVault: Full disk encryption.
+--Terminal: Command-line access.
+--Force Quit: Stop apps (Command-Option-Escape).
+
+
+What's your favorite macOS feature or go-to Linux command? Share! 👇
+
+#macOS #Linux #TechOS #AppleFeatures #OpenSource"
