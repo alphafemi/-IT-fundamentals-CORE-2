@@ -1,0 +1,63 @@
+💻 Operating Systems: The Core of Computing! 🖥️
+*Operating system is the software running on a computing devices that control all the interactions between the hardware component of a devices.
+*The operating system — the software that starts up your computer, begins its inner processes and handles upgrades, among many other things — is arguably the most important program on your P.C.
+
+The OS manages hardware and software interactions. Here's an overview of key types, from desktops to mobiles.
+
+Types:
+
++Microsoft Windows (Server): Industry-standard for PCs.
+----Pros: Wide support, vast software options. 
+----Cons: Complex integration, security vulnerabilities.
++Linux: Open-source, community-driven. Distributions: Ubuntu, Debian, Red Hat. 
+----Pros: Free, runs on any hardware. 
+----Cons: Limited drivers for new devices.
++Apple macOS: Exclusive to Apple hardware.
+----Pros: Intuitive, lower security risks.
++Chrome OS: Google-developed, Linux-based, cloud-focused.
+----Pros: Simple, secure.
++Mobile OSes: iOS/iPadOS (Apple, closed-source), Android (Google, open-source Linux-based). 
+----Pros: Optimized for mobility.
+
+--
+-----
+-----
+💻 Installing Operating Systems: Boot, Partition, and Upgrade! 🛠️
+
+The operating system — the software that starts up your computer, begins its inner processes and handles upgrades, among many other things — is arguably the most important program on your P.C. 
+
+Installing an OS? The guide below will help you plan your installation by explaining boot methods, partitioning and upgrades. Get it right the first time! 
+
+------------Boot Methods: 
+++USB storage (must be bootable). 
+++Optical media (CD/DVD). 
+++PXE Pixie -preboot execution environment (remote network install). 
+++Hard-drives. 
+++Internet (Linux, macOS Recovery). 
+++External/hot-swappable drives--Boot from USB. 
+
+------------Types of Installations: 
+++++In-place upgrade (keep apps/ maintain existing data). 
+++++Recovery partition (hidden installation files). 
++++++Perform a clean install (deleting everything). 
+After that is done, use migration tools to move your files. 
++++++To fix Windows without harming your files, there is the option of a repair installation. 
++++++Remote network install (server/shared drive). 
+
+----------Disk Partitioning: 
+++++Separates drive into logical pieces (volumes). 
+With GPT and UEFI, the drive can support up to 128 partitions and a maximum volume size of more than 9 zettabytes (ZB), or far, far beyond what drives are capable of now (assuming your system’s firmware completely implements the specification). 
++++With master boot record, an older partitioning scheme still found on many older drives, you have a limit of 2 terabytes (TB) and four primary partitions. 
+
++++In the past, the machines performed a slow reformatting, or “wipe,” of the entire disk. 
+Now the cart uses a “quick format” — a new file table is created but the data is left recoverable. 
+It writes zeros to your drive and checks for bad sectors. 
+
+-------------Upgrading Windows 
+The in-place method begins the migration from inside your operating system. 
+With the wipe-and-reload method, you back up your system and let Windows erase the drive during installation. 
+But you should still check the requirements lists, or use a tool like PC Health Check. 
+MacOS gets one major annual feature update, with each operating system supported for 18 to 36 months. 
+
+
+#OSInstallation #TechSetup #WindowsInstall #Partitioning #Software" 
