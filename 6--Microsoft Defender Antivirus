@@ -1,0 +1,29 @@
+🛡️ Microsoft Defender Antivirus: Windows' Built-in Shield! 🦠
+
+Malware lurks everywhere. Here's a guide to Microsoft Defender Antivirus—free, integrated into Windows 10/11, and powerful against threats.
+
+Overview:
+
+Built-in AV for Windows 10/11; no extra software needed.
+Accessed via Windows Security app > Virus & threat protection.
+Formerly Windows Defender; now Microsoft Defender Antivirus.
+
+Activation/Deactivation:
+
+Operates in real-time by default—scan threats as they appear.
+To disable (for troubleshooting only): Windows Security > Virus & threat protection > Manage settings > Real-time protection (toggle off).
+Warning: Disabling increases risk; re-enable ASAP and run manual scans.
+
+Updated Definitions:
+
+Effectiveness depends on latest signatures—updates detect new threats.
+Check for updates: Windows Security > Virus & threat protection > Check for updates.
+Automatic updates are configured by default; manual check ensures currency.
+Additional Tips:
+
+Run full scans regularly: Virus & threat protection > Scan options > Full scan.
+Quarantine threats: Review quarantined items and allow/remove as needed.
+Integrate with Windows Firewall for layered defense.
+Do you rely on Defender or use third-party AV? What's your favorite feature? Share! 👇
+
+#MicrosoftDefender #Antivirus #CyberSecurity #WindowsSecurity #MalwareProtection"
