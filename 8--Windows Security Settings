@@ -1,0 +1,48 @@
+🔐 Windows Security Settings: Lock Down Your PC! 🛡️
+
+Windows offers robust security features—from authentication to encryption. Here's a guide to users, permissions, UAC, BitLocker, and more.
+
+**Windows Authentication:
+Local Accounts: Tied to one device; no sync.
+Microsoft Accounts: Sync settings/apps across devices; integrates OneDrive/Skype.
+Domain Accounts: Centrally managed via Active Directory for enterprises.
+
+**Users and Groups:
+Users: Administrator (super-user), Guest (limited access), Standard Users.
+Groups: Power Users (limited admin rights; deprecated in Vista+).
+
+**Login Options:
+Username/password (common).
+PIN (local code).
+Biometrics (fingerprint/face).
+SSO (single sign-on for domains).
+
+**Permissions:
+NTFS vs. Share: NTFS applies locally/network; Share only network. Most restrictive wins (deny overrides allow).
+Explicit/Inherited: Explicit set directly; Inherited from parent. Explicit takes precedence.
+
+**Run as Administrator:
+Grants admin rights to apps without full elevation.
+Right-click > Run as administrator (even for admins).
+
+**UAC (User Account Control):
+Limits software access; prompts for changes.
+Levels: Standard users (network/password changes); Admins (install apps, Remote Desktop).
+Secure Desktop prevents automated access.
+
+**BitLocker:
+Full disk encryption (all editions except Home).
+Protects data even if drive is removed.
+BitLocker To Go for USB drives.
+
+**EFS (Encrypting File System):
+File/folder encryption on NTFS (all editions except Home).
+Uses password/username for key; admin resets can lock files.
+
+Best Practices:
+Use strong passwords/PINs; enable biometrics.
+Regularly review permissions; avoid unnecessary admin access.
+Encrypt sensitive data with BitLocker/EFS.
+What's your top Windows security tip? UAC prompts or BitLocker? Share! 👇
+
+#WindowsSecurity #CyberSecurity #Authentication #BitLocker #UAC"
