@@ -1,0 +1,52 @@
+🏢 Active Directory: Mastering Enterprise Management! 📂
+Active Directory is a centralized database that stores information about network entities.
+
+Database contents: Includes computers, user accounts, file shares, printers, groups, and other resources.
+---Authentication management: Users log in using AD credentials, enabling single sign-on across the domain.
+---Centralized access control: Defines which users can access specific resources, simplifying administration.
+---Help desk usage: Commonly used for tasks like resetting passwords, adding/removing accounts, and troubleshooting domain-related issues.
+
+Domain
+A domain represents a logical group of users, computers, and resources.
+---Domain name: Each domain has a unique name (e.g., company.local) associated with its group.
+---Domain controllers: Servers that store the central AD database; AD is the service managing this directory.
+----Troubleshooting relevance: Questions like "Is this computer on the domain?" or "Can you reset the domain password?" often arise during issue resolution.
+
+Organizational Units (OU)
+OUs help organize the large AD database into manageable hierarchies.
+----Purpose: Group users, computers, and other objects for better structure.
+----Hierarchy creation: Build custom levels, such as countries, states, buildings, departments, or even fictional ones like "Pegasus galaxy."
+----Policy application: Assign policies to OUs, ranging from broad (e.g., Domain Users) to specific (e.g., Marketing, North America).
+
+Login Script
+Login scripts automate tasks executed during user login.
+---Automation: Run a series of commands or tasks when a user logs in.
+----Assignment: Associate scripts with specific users, groups, or OUs.
+----Configuration: Link via Group Policy under User Configuration > Policies > Windows Settings > Scripts.
+----Customization: Create different scripts for various OUs to meet specific needs.
+
+Group Policy/Updates
+Group Policies manage configurations for computers and users centrally.
+---Management: Use local or domain policies via the Group Policy Management Editor.
+---Central console features: Includes login scripts, network configurations (e.g., QoS), and security parameters.
+---Updating clients: Force a policy update on a client using the command: gpupdate /force.
+
+Home Folder
+Home folders provide network-based storage for user files.
+---Assignment: Map a user's home folder to a network share for centralized management and backups, reducing reliance on local storage.
+---Automatic setup: When added to the user profile, directories are created with appropriate permissions.
+---User training: Educate users to store files in the network home folder for consistency and security.
+
+Folder Redirection
+Redirects Windows Library folders to network shares for centralized access.
+----Target folders: Includes Desktop, Downloads, Music, Documents, etc.
+----Configuration: Set up via Group Policy under User Configuration > Windows Settings > Folder Redirection.
+----Pairing with Offline Files: Enables offline access when not connected to the network.
+
+Security Groups
+Security groups simplify permission management by grouping users.
+---Creation and assignment: Create a group, assign permissions to it, then add users.
+---Built-in groups: Examples include Users, Guests, Remote Management Users, and Event Log Readers.
+----Benefits: Saves time, reduces errors, and avoids assigning permissions individually.
+
+#ActiveDirectory #WindowsServer #ITManagement #GroupPolicy #EnterpriseIT
