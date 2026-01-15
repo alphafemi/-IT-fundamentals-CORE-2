@@ -3,63 +3,62 @@ This guide covers social engineering attacks, which exploit human psychology rat
 
 Effective Social Engineering
 Social engineering manipulates individuals to gain unauthorized access or information.
-
 Dynamic nature: Tactics change frequently, making prediction difficult.
 Scale: May involve multiple attackers and organizations with interconnected ties.
 Methods: Can be in-person or electronic, e.g., phone calls posing as customers or emails about funerals.
-Phishing
-Phishing combines social engineering with spoofing to trick users into revealing information.
 
+♻️ Phishing
+Phishing combines social engineering with spoofing to trick users into revealing information.
 Delivery: Often via email, text, or other channels.
 Detection tips: Check URLs for legitimacy; look for inconsistencies like poor spelling, fonts, or graphics.
 Vishing (Voice phishing): Conducted over phone or voicemail, using caller ID spoofing for fake security checks or bank updates.
-Shoulder Surfing
-Attackers observe users to steal sensitive information.
 
+♻️ Shoulder Surfing
+Attackers observe users to steal sensitive information.
 Opportunities: Easy in public spaces like airports, hallways, coffee shops, or flights.
 Advanced methods: Use binoculars, telescopes, or webcams for remote surveillance.
 Target: Access to important data for curiosity, espionage, or competitive gain.
-Preventing Shoulder Surfing
-Implement measures to protect against visual eavesdropping.
 
+♻️ Preventing Shoulder Surfing
+Implement measures to protect against visual eavesdropping.
 Awareness: Be mindful of surroundings and control input methods.
 Privacy filters: Highly effective for limiting screen visibility.
 Monitor placement: Position screens away from windows, hallways, or public views.
 Travel tip: Avoid sitting in front of others on flights to prevent accidental exposure.
-Spear Phishing
-Targeted phishing using insider information for credibility.
 
+♻️ Spear Phishing
+Targeted phishing using insider information for credibility.
 Customization: Makes attacks more convincing by incorporating personal details.
 Whaling: A form of spear phishing targeting high-level executives (e.g., CEOs) for large gains.
 Common targets: CFOs or others with access to corporate bank accounts, allowing attackers to steal credentials.
-Tailgating and Piggybacking
-Physical access exploits where attackers follow authorized individuals.
 
+♻️ Tailgating and Piggybacking
+Physical access exploits where attackers follow authorized individuals.
 Tailgating: Unauthorized entry by sneaking through doors without consent.
 Piggybacking: Authorized entry with consent, e.g., holding doors for "busy" individuals.
 Risk: Once inside, minimal barriers exist, as security often focuses on entry points.
-Watching for Tailgating
-Enforce policies to prevent unauthorized access.
 
+♻️ Watching for Tailgating
+Enforce policies to prevent unauthorized access.
 Visitor policies: Require identification for all individuals.
 Access rules: Enforce "one scan, one person" via policy or mechanical means.
 Access Control Vestibule/Airlock: Physical barriers that allow only one person at a time.
 Verification: Don't hesitate to ask questions like "Who are you and why are you here?"
-Impersonation
-Attackers pose as trusted individuals to gain access.
 
+♻️ Impersonation
+Attackers pose as trusted individuals to gain access.
 Tactics: Use details from sources like dumpsters; claim affiliation with help desk or higher ranks.
 Deception: Overwhelm with technical jargon or build rapport (e.g., casual conversation about sports).
 Example: Pretend to be from a high-level office while spouting fake technical terms.
-Dumpster Diving
-Searching trash for discarded sensitive information.
 
+♻️ Dumpster Diving
+Searching trash for discarded sensitive information.
 Method: Scavenge garbage bins (e.g., branded as "Dumpster") for bagged waste.
 Value: Collect details for impersonation, such as names or phone numbers.
 Timing: Target end-of-month/quarter or scheduled pickups for maximum yield.
-Wireless Evil Twins
-Malicious access points mimicking legitimate networks.
 
+♻️ Wireless Evil Twins
+Malicious access points mimicking legitimate networks.
 Setup: Configure a rogue AP with similar SSID, security, and captive portal to spoof real networks.
 Execution: Overpower legitimate APs (not always requiring proximity); exploit open WiFi hotspots.
 Protection: Use HTTPS and VPNs to encrypt communications, as users are easily fooled.
