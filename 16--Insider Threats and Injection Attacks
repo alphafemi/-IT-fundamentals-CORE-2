@@ -1,0 +1,31 @@
+Insider Threats and Injection Attacks Documentation
+This guide covers insider threats, where trusted individuals pose risks, and injection attacks like SQL injection and cross-site scripting (XSS). These exploit internal knowledge or poor programming to compromise systems.
+
+Insider Threats
+Insiders with access can cause significant damage, often leveraging institutional knowledge.
+Beyond simple mistakes: Goes beyond insecure practices like sticky note passwords; some act maliciously.
+Sophistication: May not require advanced skills, but insiders know vulnerable systems and how to target them effectively.
+Impact: Extensive resources allow "eating away from the inside," leading to prolonged damage.
+
+Recruiting Insiders
+Attackers target insiders to bypass perimeter defenses.
+Evolving tactics: As network security improves, attackers focus on insiders in an ongoing arms race.
+Ransomware incentives: Offer Bitcoin for access; a single infection can yield millions.
+Prevention: Stay vigilant with security fundamentals and maintain regular backups.
+
+Code Injection
+Injection attacks insert malicious code into data streams due to poor programming.
+Mechanism: Exploits applications that fail to properly sanitize input/output.
+Variety: Affects multiple data types, including HTML, SQL, XML, and LDAP.
+
+- SQL Injection
+SQL injection manipulates database queries to control applications.
+SQL Overview: Structured Query Language, used in relational database management systems.
+Attack Method: Modifies SQL requests by injecting code (applications should prevent this).
+Consequences: If successful, attackers gain control over the database and the entire application.
+
+ Cross-Site Scripting
+Cross-site scripting (XSS) injects malicious scripts into web pages viewed by others.
+Mechanism: Exploits vulnerabilities in web applications to execute scripts in users' browsers.
+Types: Reflected (non-persistent), stored (persistent), and DOM-based.
+Impact: Can steal cookies, session tokens, or redirect users to malicious sites.
