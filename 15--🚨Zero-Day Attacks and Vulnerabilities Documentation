@@ -3,34 +3,33 @@ This guide covers zero-day attacks, on-path attacks (formerly man-in-the-middle)
 
 Zero-Day Attacks
 Zero-day attacks target vulnerabilities unknown to developers or the public.
-Vulnerabilities in applications: Many exist but remain undetected; attackers exploit them for personal gain while keeping them secret.
+-Vulnerabilities in applications: Many exist but remain undetected; attackers exploit them for personal gain while keeping them secret.
 Good vs. bad actors: Ethical researchers share findings with developers; attackers hoard them.
-Definition: "Zero-day" refers to exploits of unpublished vulnerabilities; these are increasingly common.
-Tracking: Use Common Vulnerabilities and Exposures (CVE) database at https://cve.mitre.org/ for known issues.
-
+-Definition: "Zero-day" refers to exploits of unpublished vulnerabilities; these are increasingly common.
+-Tracking: Use Common Vulnerabilities and Exposures (CVE) database at https://cve.mitre.org/ for known issues.
 Zero-Day Vulnerabilities
 A real-world example highlights the risks of undiscovered flaws.
 Log4j Remote Code Execution (December 9, 2021): Affected a Java-based logging utility from Apache, installed on millions of servers. Vulnerability introduced on September 14, 2013.
 Timeline:
-December 14: Fix released with extensive patching required.
-December 17: Two new issues discovered, prompting widespread bug hunting.
-Impact: Demonstrates how long-hidden vulnerabilities can cause massive disruptions once exploited.
+--December 14: Fix released with extensive patching required.
+--December 17: Two new issues discovered, prompting widespread bug hunting.
+-Impact: Demonstrates how long-hidden vulnerabilities can cause massive disruptions once exploited.
 
-- On-Path Attacks
+-- On-Path Attacks
 On-path attacks intercept and manipulate traffic without detection
 
-On-Path Network Attack
+---On-Path Network Attack
 Attackers redirect traffic to eavesdrop or alter it.
 Mechanism: Formerly called man-in-the-middle; redirects traffic to the attacker, who forwards it to the destination undetected.
 ARP Poisoning: A common on-path attack on local IP subnets; exploits ARP's lack of security by spoofing responses.
 
-On-Path Browser Attack
+---On-Path Browser Attack
 Malware on the victim's device acts as a proxy.
 Mechanism: Formerly man-in-the-browser; malware/Trojan intercepts browser traffic, including encrypted data.
 Advantages for attackers: Easy to proxy traffic; appears normal to the victim.
 Example: Malware waits for bank logins to steal credentials and funds.
 
-ARP Poisoning (Spoofing)
+--ARP Poisoning (Spoofing)
 ARP poisoning manipulates Address Resolution Protocol to redirect traffic.
 Process:
 Legitimate ARP response from the default gateway (e.g., IP 192.168.1.1, MAC c8:bc:c8:a7:38:d5) is cached on the local device.
@@ -41,29 +40,29 @@ Result: Traffic intended for the router goes to the attacker, enabling intercept
 Password Attacks
 Password attacks exploit weak storage or guessing methods.
 
-Plaintext / Unencrypted Passwords
+🈸Plaintext / Unencrypted Passwords
 Storing passwords without encryption is highly insecure.
 Risk: Passwords are readable in plain text; anyone with file/database access gets all credentials.
 Advice: Avoid applications that store passwords this way; switch to better alternatives.
 
-Hashing a Password
+🈸Hashing a Password
 Hashing converts passwords into irreversible digests.
 Process: Creates a fixed-length string (fingerprint) representing the data.
 Security: No collisions (different inputs yield different hashes); one-way function prevents recovery of the original password.
 Common use: Standard for secure password storage.
 
-The Password File
+🈸The Password File
 Password storage varies by system and application.
 Variations: Different OSes and apps use unique hash algorithms for added security.
 
-Brute Force
+🈸Brute Force
 Attempts all possible password combinations.
 Methods:
 Online: Repeated login attempts; slow and often triggers lockouts.
 Offline: Obtain user hashes, compute and compare; requires significant computational power.
 Mitigation: Strong hashing algorithms slow down attacks.
 
-Dictionary Attacks
+🈸Dictionary Attacks
 Uses wordlists to guess common passwords.
 Approach: Leverages dictionaries of common words, with substitutions (e.g., p&ssw0rd for "password").
 Tools: Distributed cracking or GPU acceleration speeds up the process.
