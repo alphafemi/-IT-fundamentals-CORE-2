@@ -1,0 +1,66 @@
+Security Best Practices Documentation
+This guide covers essential security best practices for protecting data, systems, and users. Topics include encryption, password management, account controls, and user behaviors to mitigate risks like unauthorized access and data breaches.
+
+Encryption
+Protect data at rest and on the move with encryption.
+
+Full-disk encryption: Encrypts entire drives to secure data-at-rest.
+File system encryption: Protects individual files and folders.
+Removable media: Encrypt USB flash drives and other portable devices.
+Key backups: Critical for recovery; integrate with Active Directory or keep accessible copies to avoid lockouts.
+Password Complexity and Length
+Create strong passwords to resist attacks.
+
+Strength requirements: Resist guessing or brute-force; increase entropy with mixed case, numbers, and special characters.
+Length: At least 8 characters; use phrases or word sets for better security.
+Avoid: Single words, obvious patterns, or dictionary terms.
+Password Expiration and Recovery
+Enforce regular changes and secure recovery.
+
+Expiration: Change passwords every 30-90 days; systems track history to prevent reuse.
+Frequency for critical systems: Every 15 days or weekly.
+Recovery process: Make it non-trivial with formal procedures to prevent easy resets.
+Password Best Practices
+Implement foundational password security measures.
+
+Change defaults: All devices have default credentials; update immediately (refer to documentation sites for lists).
+BIOS/UEFI passwords:
+Supervisor/Administrator: Prevents BIOS changes.
+User: Prevents booting without password.
+Require passwords: Always enforce; no blank or automated logins.
+End-User Best Practices
+Empower users with secure habits.
+
+Screensaver passwords: Integrate with login credentials; enforce administratively.
+Automatic locking: Locks after inactivity or timeout without user input.
+Secure hardware: Lock down laptops to prevent theft; use physical security measures.
+Securing PII and Passwords
+Protect personally identifiable information (PII) and credentials.
+
+PII examples: Names, addresses, social security numbers, etc.
+Awareness: Control input in public; be mindful of surroundings.
+Privacy filters: Effective for limiting screen visibility.
+Monitor placement: Position away from windows, hallways, or public views to avoid shoulder surfing.
+Account Management
+Assign and restrict access appropriately.
+
+User permissions: Not everyone needs administrator rights; audit and assign based on roles.
+Group-based rights: Easier to manage than per-user; scales with organization growth.
+Login time restrictions: Limit logins to working hours to reduce after-hours risks.
+Disabling Unnecessary Accounts
+Remove or disable unused accounts to minimize attack surfaces.
+
+Default accounts: OSes include extras like Guest or root; disable/remove unnecessary ones.
+Interactive logins: Disable for accounts that don't need direct access.
+Change defaults: Alter usernames/passwords (e.g., from "admin/admin") to thwart brute-force attacks.
+Locking the Desktop
+Prevent unauthorized access during inactivity.
+
+Failed attempts: Lock accounts or reboot after a threshold to stop online brute-force.
+Automatic locking: Activate after inactivity or when unattended.
+AutoRun and AutoPlay
+Disable automatic execution to prevent malware spread.
+
+AutoRun: Disabled in Windows 7+; on older OSes, disable via registry (e.g., autorun.inf in Vista).
+AutoPlay: Configure in Settings > Bluetooth & devices > AutoPlay.
+Updates: Apply latest security patches for AutoRun and AutoPlay vulnerabilities.
