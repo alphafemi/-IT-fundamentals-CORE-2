@@ -1,0 +1,62 @@
+Mobile Device Security Documentation
+This guide covers security measures for mobile devices, including locking mechanisms, tracking, updates, encryption, backups, protection tools, policies, and IoT considerations. Mobile devices are portable and connected, making them high-risk targets for theft, loss, or malware.
+
+Screen Locks
+Restrict access to prevent unauthorized use, especially when devices are unattended.
+
+Facial recognition: Unlock using biometric facial scans.
+PIN: Set a personal identification number for quick access.
+Fingerprint: Use built-in readers for biometric authentication.
+Swipe: Draw a custom pattern to unlock.
+Failed attempts:
+iOS: Erases all data after 10 failed attempts.
+Android: Locks the device and may require Google login or allow wiping.
+Locator Applications and Remote Wipe
+Track and secure lost or stolen devices using built-in GPS and location services.
+
+Find your phone: Locate on a map via apps like Find My iPhone or Find My Device.
+Remote control: Play sounds, display messages, or lock remotely.
+Remote wipe: Erase all data to protect sensitive information if recovery is unlikely.
+Patching/OS Updates
+Keep devices secure with regular updates.
+
+Device patches: Apply security updates to fix vulnerabilities.
+Operating system updates: Include new features and bug fixes.
+Importance: Stay current to avoid known security issues; delays can expose devices to exploits.
+Full Device Encryption
+Encrypt all data on the device to protect against physical access.
+
+Mechanism: Device holds the encryption key; data is inaccessible without it.
+iOS: From version 8, personal data is encrypted using the passcode.
+Android: Likely encrypted by default from version 5.0 onward.
+Remote Backup
+Ensure data recovery for mobile, always-on devices.
+
+Cloud backup: Automatic backups over the network without manual intervention.
+Features: Constant syncing; wireless restores with one-click recovery after authentication.
+Anti-Virus and Anti-Malware
+Protect against mobile threats with built-in and third-party tools.
+
+iOS: Closed, regulated environment; malware requires exploiting vulnerabilities.
+Android: More open; apps can install from any source, increasing risk.
+Sandboxing: Apps run in isolated environments, limiting data access.
+Third-party options: Available from major providers for additional scanning and removal.
+Firewalls
+Control network traffic on mobile devices.
+
+Built-in limitations: Most mobile devices lack firewalls, as traffic is primarily outbound.
+Third-party apps: Available mainly for Android; not widely used.
+Enterprise control: Use firewalls to allow/disallow app access in managed environments.
+Policies and Procedures
+Manage mobile devices in organizational settings.
+
+BYOD (Bring Your Own Device): Handle both company-owned and personal devices.
+Centralized management: Use Mobile Device Managers (MDM) for control.
+Policies: Set rules for apps, data, cameras, etc.; control entire devices or partitions.
+Access control: Enforce screen locks and PINs, even on single-user devices.
+IoT (Internet of Things)
+Secure connected devices, which often have weak security.
+
+Examples: Sensors (heating/cooling), smart devices (home automation, doorbells), wearables (watches, health monitors), facility automation (temperature, lighting).
+Vulnerabilities: Manufacturers prioritize functionality over security; use weak defaults.
+Best practices: Isolate IoT devices on separate networks to limit exposure.
