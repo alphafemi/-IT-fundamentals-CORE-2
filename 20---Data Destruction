@@ -1,0 +1,35 @@
+Data Destruction Documentation
+This guide covers methods for securely destroying data on storage devices to prevent recovery. Improper disposal can lead to data breaches, so choose methods based on sensitivity and reuse needs. Always verify destruction for compliance.
+
+Physical Destruction
+Permanently destroy hardware to ensure data is irrecoverable.
+
+Shredder: Industrial machinery for complete destruction of drives.
+Drill/Hammer: Quick method; puncture platters and components thoroughly.
+Electromagnetic (Degaussing): Removes magnetic fields, destroying data and electronics.
+Incineration: Burn drives at high temperatures for total obliteration.
+Certificate of Destruction
+Obtain proof when using third-party services.
+
+Third-party services: Professional destruction for large volumes (e.g., drills, degaussers).
+Confirmation: Require a certificate verifying data destruction.
+Paper trail: Documents the process for audit and compliance purposes.
+Disk Formatting
+Reformat drives, but note that not all methods securely erase data.
+
+Low-level formatting: Factory-level; not user-recommended, as it may not clear data.
+Standard/Quick format: Sets up file system and boot sector; clears master file table but leaves data recoverable with tools.
+Standard/Regular format: Overwrites sectors with zeros (default in Windows Vista+); data becomes unrecoverable.
+Erasing Data
+Use software or physical methods for secure deletion.
+
+File-level overwriting: Tools like Sdelete (Windows Sysinternals) overwrite individual files; remaining files stay accessible.
+Whole drive wipe: DBAN (Darik’s Boot and Nuke) erases all data; drive can be reused.
+Physical drive destruction: One-off or industrial methods; drive becomes unusable.
+Hard Drive Security
+Studies highlight risks of inadequate disposal.
+
+2019 Blancco and Ontrack study: Analyzed 159 used drives from eBay; 42% contained sensitive data.
+Data types found: 66 drives with data, 25 with personally identifiable information (PII).
+Sources: Included travel company emails, freight shipping details, university papers, and personal audio/video files.
+Implications: Emphasizes the need for proper destruction to avoid exposing confidential information.
