@@ -1,0 +1,92 @@
+Securing a SOHO Network Documentation
+This guide outlines best practices for securing Small Office/Home Office (SOHO) networks, including routers, access points, and connected devices. SOHO setups are common but often have default vulnerabilities, so proactive measures are essential to protect against unauthorized access, malware, and data breaches.
+
+Change Default Passwords
+Update factory defaults immediately to prevent easy exploitation.
+Default credentials: All access points and routers ship with standard usernames/passwords, granting full administrative control.
+Risk: Easily found on sites like https://www.routerpasswords.com; attackers can take over devices.
+Action: Change to strong, unique passwords for all devices.
+
+Firmware Updates
+Keep devices current to address vulnerabilities.
+SOHO appliances: Often closed systems with manufacturer-provided updates.
+Update types: Include bug fixes, new features, and security patches.
+Best practice: Regularly install the latest firmware for routers, firewalls, switches, etc., to avoid exploits.
+
+IP Address Filtering
+Control traffic based on IP ranges or content.
+Allow list: Restrictive; only approved IPs pass through the firewall.
+Deny list: Blocks specific bad IPs, URLs, or domains.
+Combination: Use both for layered protection against unauthorized access.
+
+Content Filtering
+Filter data based on content to block threats and inappropriate material.
+Methods: URL filtering, website category blocking.
+Corporate use: Control outbound/inbound data, including sensitive materials.
+Additional controls: Parental controls for NSFW content; integrate anti-virus/anti-malware for protection.
+
+Physical Placement
+Secure device locations to prevent tampering.
+Single devices: Often combine router, switch, access point, and firewall.
+Secure rooms: Restrict access to servers and network gear.
+Wireless considerations: Place access points high (e.g., above ceilings) for better coverage, but ensure easy power access.
+Planning: Account for setup time and potential issues like power cycling.
+
+IP Addressing
+Manage IP assignments for visibility and control.
+DHCP vs. Manual: Automatic (DHCP) vs. static IPs; DHCP is common but exposes IPs on unencrypted networks.
+Security note: Static IPs aren't secure; avoid "security through obscurity" as encryption is key.
+
+DHCP Reservations
+Reserve IPs for specific devices.
+Configuration: Administratively assign IPs based on MAC addresses.
+Alternatives: Known as static DHCP assignment, IP reservation, or static assignment.
+Benefit: Ensures consistent addressing for managed devices.
+
+Static WAN IP
+Use fixed external IPs for easier management.
+WAN link: External IP for internet connection; many ISPs assign dynamically by default.
+Advantages: Simplifies IT management; useful for SOHO services requiring consistent access.
+Cost: May incur extra fees; check with ISP for options.
+
+UPnP (Universal Plug and Play)
+Automates device discovery but poses risks.
+Function: Zero-configuration for automatic setup and port opening (e.g., for P2P apps).
+Risk: Apps can open inbound ports without approval, creating vulnerabilities.
+Best practice: Disable by default; enable only if required, and cautiously.
+
+Screened Subnet
+Create a buffer zone for public-facing services.
+Formerly DMZ: Adds security between the internet and internal network.
+Purpose: Allows public access to resources (e.g., web servers) without exposing the full network.
+
+SSID Management
+Configure wireless network identifiers securely.
+SSID: Default names like "LINKSYS" or "DEFAULT" are obvious.
+Changes: Rename to non-obvious; disable broadcasting if desired (though SSID can still be detected via analysis).
+Note: Broadcasting disable is "security through obscurity"; not foolproof.
+
+Wireless Channels and Encryption
+Secure wireless access with proper encryption.
+Open System: No password; highly insecure.
+WPA/2/3-Personal/PSK: Pre-shared key (256-bit); same key for all users.
+WPA/2/3-Enterprise/802.1X: Individual authentication via servers like RADIUS or LDAP.
+Frequency: Use open, less congested channels; some APs auto-select.
+
+Disable Guest Networks
+Limit external access to reduce risks.
+Default state: Often enabled; restrict to prevent outsider connections.
+Alternatives: Use for IoT or lab networks, but secure with WPA2/3.
+Policy: Don't enable without strong encryption.
+
+Disabling Ports
+Reduce attack surfaces by controlling physical access.
+Enabled ports: Common in shared areas like conference rooms.
+Action: Administratively disable unused ports for security.
+Advanced: Use Network Access Control (NAC) or 802.1X for authentication-required access.
+
+Port Forwarding
+Enable external access to internal services.
+Use cases: 24/7 access to web servers, gaming, or security systems.
+Mechanism: Maps external IP/port to internal IP/port (can differ); also called Destination NAT or Static NAT.
+Security: Doesn't expire; monitor for vulnerabilities.
