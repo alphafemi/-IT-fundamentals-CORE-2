@@ -1,0 +1,38 @@
+Ticketing Systems Documentation
+This guide explains ticketing systems, essential for managing support requests in IT environments. They document, assign, resolve, and report issues, typically handled by help desks. Systems vary but share core functions for efficient support.
+
+Ticketing Systems Overview
+Centralized tools for support management.
+Functions: Document requests, assign tasks, track resolutions, generate reports.
+Role: Help desk triages calls and determines next steps.
+Variety: Many systems exist with similar features.
+
+Managing a Support Ticket
+Process for handling tickets from start to finish.
+Information Gathering: Collect user/device details and problem description.
+Applying Context: Categorize the problem, assign severity, decide on escalation.
+Communication: Ensure clear, concise notes on problems, progress, and resolutions.
+
+User Information
+Identify the affected person accurately.
+Importance: Essential for addressing issues.
+Integration: Often linked to directories like Active Directory.
+Automation: May populate from portals or emails.
+Verification: Confirm contact details, as databases can be outdated.
+
+Device and Description
+Detail the hardware and issue specifics.
+Device Info: Specify type (e.g., laptop, printer, projector).
+Description: Key field; keep it clear and concise to guide next steps.
+Impact: Determines actions like callbacks, associations, or assignments.
+
+Categorization and Escalation
+Organize and prioritize tickets.
+Categories: Broad types like change requests, hardware issues, failures, or onboarding.
+Severity: Standardized levels (e.g., low, medium, high, critical).
+Escalation: Route complex issues to specialists or higher tiers/groups.
+
+Resolving the Issue
+Document the process and solution.
+Progress Notes: Concise updates for multiple contributors; note changes or info.
+Resolution Documentation: Record solutions for future reference, building a knowledge base.
