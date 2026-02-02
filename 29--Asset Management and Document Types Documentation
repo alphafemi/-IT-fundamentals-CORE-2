@@ -1,0 +1,69 @@
+Asset Management and Document Types Documentation
+This guide covers asset management, procurement processes, policies, compliance, and documentation types essential for IT operations. These ensure tracking, security, and efficient handling of resources and incidents.
+
+Asset Management
+Maintain records of all organizational assets for support and financial purposes.
+Assets Include: Laptops, desktops, servers, routers, switches, cables, fiber modules, tablets, etc.
+Support Integration: Associate tickets with specific device make/model for detailed troubleshooting.
+Financial Aspects: Track make/model, configuration, purchase date, location, depreciation, and audits.
+Tagging: Add asset tags like barcodes, RFID, visible numbers, or organization names for identification.
+
+Asset Database
+Centralized system for tracking assets across the organization.
+Usage: Shared by departments for assignments and monitoring.
+User Association: Link assets to assigned users for tracking.
+Warranty Tracking: Differentiate processes for in/out-of-warranty items.
+Licensing: Manage software costs and renewal deadlines.
+
+Procurement Life Cycle
+Structured process for acquiring goods and services.
+Initiation: Start with user requests, including budgeting and approvals.
+Negotiation: Discuss terms with suppliers, covering purchase, invoicing, and payment.
+Execution: Handle the financial and logistical aspects of procurement.
+
+Acceptable Use Policies (AUP)
+Define acceptable use of company assets to limit liability.
+Coverage: Internet, telephones, computers, mobile devices, etc.
+Purpose: Detailed rules (often in Rules of Behavior) to protect against misuse; used for disciplinary actions.
+Legal Role: Reduces organizational liability in disputes.
+
+Network Topology Diagram
+Visual representation of network layout.
+Types: Logical diagrams or physical rack layouts.
+Purpose: Illustrates connections and locations for planning and troubleshooting.
+
+Compliance
+Adherence to laws, policies, and regulations.
+Scope: Industry-specific or situational rules; domestic/international.
+Consequences: Penalties like fines, job loss, or incarceration.
+Importance: Ensures legal and operational standards are met.
+
+Splash Screens
+Messages or graphics displayed during startup/login.
+Uses: Branding, compliance requirements, or informational notices (e.g., maintenance alerts).
+Legal/Admin Purposes: Warnings about misuse or data reliance.
+
+Incident Reports
+Document security incidents for policy enforcement.
+Requirement: Ongoing documentation for security policies.
+Process: Formal plans for incidents; detailed reports for reference and future prevention.
+
+Standard Operating Procedures
+Defined processes for business objectives.
+Examples: Downtime notifications, facilities issues, software installations/upgrades with testing and change control.
+Benefit: Clear documentation for review and understanding by all.
+
+On-Boarding
+Process for integrating new employees.
+Checklist: New user setup, including IT agreements (e.g., AUP in handbook).
+Actions: Create accounts, assign groups/departments, provide preconfigured hardware like laptops/tablets.
+
+Off-Boarding
+Process for employee departure.
+Checklist: Predefined steps for termination.
+Considerations: Hardware return, data handling, account deactivation (not always deletion).
+
+Knowledge Base and Articles
+Repositories for solutions and information.
+Sources: External (manufacturer KB, communities) or internal (institutional knowledge, help desk software).
+Functionality: Searchable archives; automatic searches based on ticket keywords for quick resolutions.
