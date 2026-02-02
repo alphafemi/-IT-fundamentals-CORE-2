@@ -1,0 +1,41 @@
+Troubleshooting Security Issues Documentation
+This guide addresses common security-related problems in Windows, such as malware-induced network issues, false alerts, file alterations, and browser problems. Focus on detection, isolation, and removal to restore system integrity.
+
+Unable to Access the Network
+Malware can disrupt connectivity and performance.
+Symptoms: Slow performance, lock-ups, or connectivity failures.
+Causes: Poorly written malware code; malware controlling traffic or blocking updates/downloads.
+Resolutions:
+Scan and clean with anti-malware tools.
+Reload OS or restore from known-good backup for guaranteed removal.
+
+Desktop Alerts
+Handle suspicious notifications, often mimicking legitimate alerts.
+Issue: Browser push notifications claiming malware infections (real alerts come from antivirus).
+Actions:
+Disable browser notifications; create an allow list for trusted sites.
+Scan for malware; consider full cleaning or rebuild from backup.
+
+False Antivirus Alerts
+Scams posing as security software.
+Symptoms: Fake messages with logos, demanding payment to "unlock" PC or subscribe.
+Removal: Use specific anti-malware tools or techniques; attackers are sophisticated.
+Prevention: Only trust official antivirus software.
+
+Altered System or Personal Files
+Malware modifies or hides files.
+Signs: Renamed/deleted/encrypted files; changed permissions; access denied errors.
+Causes: Malware protecting itself or encrypting data (e.g., ransomware).
+Resolutions: Use malware cleaners or restore from known-good backup; some are hard to remove.
+
+Browser Security Alerts
+Invalid certificates indicate potential threats.
+Symptoms: Alerts for expired, mismatched, or untrusted certificates.
+Checks: Click lock icon for details; verify time/date settings.
+Actions: Avoid proceeding; scan for malware if persistent.
+
+Browser Redirection
+Unwanted redirects, typically malware-driven.
+Symptoms: Searches lead to unexpected sites for ad revenue.
+Causes: Malware altering browser behavior.
+Resolutions: Anti-malware scan (may not fully remove); restore from known-good backup for certainty.
