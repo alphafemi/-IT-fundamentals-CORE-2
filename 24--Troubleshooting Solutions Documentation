@@ -1,0 +1,80 @@
+Troubleshooting Solutions Documentation
+This guide outlines common troubleshooting steps for resolving Windows issues, from simple reboots to advanced profile rebuilding. Start with basic fixes and escalate as needed, always backing up data first.
+
+Reboot
+A classic fix that often resolves transient problems.
+Why it works: Clears bugs in router software, stops resource-heavy apps, or fixes memory leaks by resetting RAM.
+Application: Reboot the router or system to refresh states.
+
+Restart Services
+Address background service issues similar to app problems.
+Services: Run without user interaction; can have resource issues, memory leaks, or crashes.
+Management: Use Task Manager > Services tab; right-click to start, stop, or restart.
+
+Uninstall/Reinstall/Update Applications
+Fix app-specific problems with installation tools.
+Issues: Corrupted files or configurations.
+Options:
+Settings > Apps > Apps & features: Repair, reset, or uninstall.
+Control Panel > Programs and Features.
+Run setup again for additional options.
+Repair: Replaces missing/corrupted files, fixes shortcuts/registry/drivers.
+Reset: Removes all data for a fresh start.
+Uninstall: Completely removes the app.
+
+Verify Requirements
+Ensure system meets minimum specs for OS/apps.
+Check sources: Manufacturer requirements (often minimums); use System Information to view current config.
+Resources: CPU, RAM, video, drivers, runtime libraries.
+
+Add Resources
+Upgrade hardware/software if utilization is high.
+Monitoring: Task Manager for short-term; Performance Monitor for long-term analysis.
+Actions: Compare to requirements; add/replace CPU, SSD, RAM; use Disk Cleanup for space.
+
+System File Checker
+Verify OS integrity.
+Tool: Run sfc to check and repair system files.
+
+Startup Repair
+Fix boot issues.
+Access: Settings > System > Recovery or Advanced Boot Options > Repair Windows.
+
+Windows Restore
+Revert to a previous system state.
+Access: System > About > System Protection (if enabled).
+Process: Select restore point; reboots to revert config (user data unchanged).
+
+Reimage or Reload OS
+Rebuild the system for complex issues.
+Rationale: Faster than deep troubleshooting; use prebuilt images if available.
+Options: Windows reset in Settings > Update & Security > Recovery (Win10) or System > Recovery (Win11).
+
+Update and Patch
+Keep systems secure and functional.
+Windows Update: Centralized for OS/drivers; adjust active hours/metered connections.
+Apps: Patch from publishers to address security beyond OS.
+
+Roll Back Updates
+Undo problematic updates.
+View history: Settings > Update & Security > Windows Update (Win10) or Windows Update (Win11).
+
+Rebuild Windows Profiles
+Fix corrupted user profiles.
+Symptoms: Logon failures, missing documents.
+Process: Delete and recreate profile to force rebuilding.
+
+Deleting Windows Profiles
+Prepare for reconstruction.
+Steps:
+Log in as Domain Administrator.
+Rename \Users\name folder (saves files).
+Backup registry: HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList > Export.
+Delete registry entry; restart.
+
+Reconstructing Windows Profiles
+Complete the rebuild.
+Steps:
+Log in with user account to recreate profile/folder.
+Log in as Domain Administrator; copy important files from old profile (avoid full copy to prevent corruption).
+Logout as Admin; log in as user.
