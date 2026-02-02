@@ -1,0 +1,86 @@
+Change Management Documentation
+This guide outlines change management processes, essential for implementing updates like software upgrades, patches, or configuration changes in enterprise environments. It minimizes risks, ensures approvals, and includes rollback plans to avoid downtime or errors.
+
+Off-Boarding
+Process for employee departure to secure assets and data.
+
+Checklist: Predefined steps for termination.
+Considerations: Hardware return, data handling, account deactivation (not always deletion).
+Predefinition: Avoid ad-hoc decisions; have policies ready.
+Knowledge Base and Articles
+Resources for quick solutions.
+
+External: Manufacturer knowledge bases, internet communities.
+Internal: Institutional knowledge, often integrated with help desk software.
+Features: Searchable archives; automatic keyword-based searches for tickets.
+Change Management
+Structured approach to making changes safely.
+
+Examples: Software upgrades, patches, firewall configs, switch port modifications.
+Risks: Common and frequent; often overlooked.
+Policies Needed: Cover frequency, duration, installation, rollback.
+Challenges: Hard to implement due to cultural resistance.
+Rollback Plan
+Prepare to revert changes if issues arise.
+
+Necessity: Changes can fail; always have a reversion method.
+Difficulty: Some changes are hard to undo.
+Best Practice: Maintain backups for quick recovery.
+Sandbox Testing
+Test changes in isolated environments.
+
+Setup: No connection to production; safe for experimentation.
+Use: Test upgrades/patches before deployment.
+Limitations: Confirm rollback; can't simulate all scenarios.
+Responsible Staff Members
+Team involvement for successful changes.
+
+IT Team: Implements the change.
+Business Customer: End-user of the technology/software.
+Organization Sponsor: Oversees budget or profits.
+Change Management Process
+Formal steps to manage changes and avoid issues.
+
+Steps:
+Complete request forms.
+Determine purpose.
+Identify scope.
+Schedule date/time.
+Assess affected systems/impact.
+Analyze risks.
+Get change control board approval.
+Obtain end-user acceptance post-change.
+Change Request Forms
+Documented requests for transparency.
+
+Format: Usually online systems for tracking.
+Benefits: Ensures nothing is missed; enables reports/statistics.
+Transparency: Involves multiple groups/people.
+Purpose of the Change
+Justify the change with compelling reasons.
+
+Reasons: New features, bug fixes, performance enhancements, security patches.
+Cost Consideration: Changes are expensive; require strong justification.
+Scope of the Change
+Assess impact and duration.
+
+Range: Single server to entire site; may affect apps, connectivity, access.
+Timing: Schedule with potential downtime (none to hours).
+Risk Analysis
+Evaluate risks of the change and inaction.
+
+Levels: High, medium, low.
+Potential Issues: Fixes failing, breaking other systems, OS failures, data corruption.
+Inaction Risks: Vulnerabilities, unexpected downtime.
+Change Board and Approvals
+Final decision-making body.
+
+Composition: Representatives from all affected areas.
+Decisions: Go/no-go; prioritizes and schedules changes.
+Process: Discussion leads to approval; work follows.
+End-User Acceptance
+Sign-off from users to confirm success.
+
+Requirement: Mandatory for completion.
+Role: Users decide value; IT ensures their success.
+Ideally: Formality with ongoing communication before/after.
