@@ -1,0 +1,65 @@
+Troubleshooting Mobile Device Security
+Address security-specific problems like malware and data breaches.
+
+Android Package Source
+Avoid untrusted app installations.
+Risk: Malware gains extensive access; don't install APKs from untrusted sources.
+iOS: Apps curated by Apple.
+Android: Use Google Play or trusted stores; sideloading causes issues.
+
+Developer Mode
+Enable for advanced settings (use cautiously).
+Features: USB debugging, memory stats, demo mode.
+iOS/iPadOS: Use Xcode on macOS.
+Android: Settings > About Phone > Tap build number 7 times.
+
+Root Access/Jailbreaking
+Gain full control but risk security.
+Methods: Android (rooting); iOS (jailbreaking); install custom firmware.
+Risks: Bypasses security, allows sideloading; renders MDM useless.
+
+Application Spoofing
+Beware of fake apps.
+Examples: 2021 Google removal of 150 apps (e.g., photo editors, games); UltimaSMS charged $40/month SMS.
+Causes: Infected build tools like XcodeGhost.
+Prevention: Verify sources and app legitimacy; check permissions.
+
+High Network Traffic
+Monitor for malware indicators.
+Symptoms: Excessive data use (e.g., C&C or proxy traffic).
+Steps: Check built-in data reports; use trusted third-party apps; run malware scan.
+
+Data-Usage Limit Notification
+Set limits to detect issues.
+Android feature: Set warnings/limits; monitor app usage.
+Indicators: May signal malware; scan for infected apps.
+
+Sluggish Response Time
+Fix performance lags.
+Symptoms: Slow screen/input response.
+Steps: Restart; update OS/apps; close unused apps; factory reset as last resort.
+
+Limited or No Internet Connectivity
+Malware may block access.
+Symptoms: No network access.
+Steps: Toggle Wi-Fi/Airplane mode; restart device; scan for malware.
+
+High Number of Ads
+Remove adware.
+Symptoms: Excessive ads; e.g., 2019 FakeAdsBlock malware.
+Steps: Run anti-malware to remove.
+
+Fake Security Warnings
+Avoid scams installing malware.
+Symptoms: Legit-looking warnings prompting installs.
+Actions: Don't click; run malware removal if clicked.
+
+Unexpected Application Behavior
+Identify compromised apps.
+Symptoms: Crashes, missing features, high battery use.
+Steps: Update app.
+Leaked Personal Files
+Respond to data breaches.
+
+Symptoms: Unauthorized access, leaked data.
+Steps: Scan apps/malware; factory reset; check online sources (iCloud, Google Workspace, OneDrive); change passwords.
