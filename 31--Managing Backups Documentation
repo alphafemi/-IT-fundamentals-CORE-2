@@ -1,0 +1,59 @@
+Managing Backups Documentation
+This guide covers backup strategies, types, testing, storage options, and best practices to protect data from loss. Backups are critical for recovery from hardware failures, malware, or disasters, ensuring minimal downtime.
+
+Backups Overview
+Essential for data recovery and disaster planning.
+Importance: Recover valuable data; prepare for incidents.
+Variations: Depend on data volume, type, media, location, software, and schedule.
+
+Full Backup
+Comprehensive backup of all data.
+Process: Copies all OS and user files.
+Drawbacks: Longest duration; impractical daily due to time and storage needs.
+Example Schedule: Full backups on Monday, Tuesday, etc., with recovery from the latest full.
+
+Incremental Backup
+Backs up changes since the last backup.
+Process: Starts with a full backup; subsequent ones capture only changes since the last incremental.
+Advantages: Smaller and faster than full backups.
+Recovery: Requires the full backup plus all incrementals.
+Example: Full on Monday, incrementals Tuesday-Thursday; recovery needs full + all incrementals.
+
+Differential Backup
+Backs up changes since the last full backup.
+Process: Full first; differentials grow as more data changes.
+Recovery: Needs full backup + last differential.
+Comparison: Larger than incrementals but simpler recovery than multiple incrementals.
+
+Synthetic Backup
+Creates full backups efficiently without full copies.
+Process: First full copies all files; subsequent "fulls" synthesized from prior backups.
+Benefits: Faster, less bandwidth-intensive; combines full backup advantages with incremental efficiency.
+
+Backup Testing
+Verify backups are restorable.
+Importance: Backing up isn't enough; test restores.
+Methods: Simulate disasters; confirm restored apps/data work.
+Audits: Periodic checks (weekly/monthly/quarterly) to ensure reliability.
+
+On-Site vs. Off-Site Backups
+Choose storage based on accessibility and security.
+On-Site: No internet needed; immediate access; cheaper; vulnerable to local disasters.
+Off-Site: Via internet/WAN; available post-disaster; restorable from anywhere.
+Best Practice: Use both for redundancy and options.
+
+Grandfather-Father-Son (GFS)
+Rotation scheme for efficient retention.
+Structure: Monthly (grandfather), weekly (father), daily (son) backups.
+Details:
+Grandfather: 12 monthly fulls (e.g., last day of month); ideal for off-site.
+Father: 4-5 weekly fulls (e.g., every Monday).
+Son: 31 daily incrementals/differentials (e.g., Mon-Fri).
+Customization: Adjust based on organization needs.
+
+3-2-1 Backup Rule
+Popular strategy for data protection.
+Rule: 3 copies of data (1 primary + 2 backups).
+Media: 2 different types (e.g., local drive, tape, NAS).
+Off-Site: 1 copy stored off-site.
+Application: Effective for business or home; ensures redundancy and disaster resilience.
