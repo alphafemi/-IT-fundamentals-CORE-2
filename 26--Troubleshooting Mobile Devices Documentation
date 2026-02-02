@@ -1,0 +1,63 @@
+Troubleshooting Mobile Devices Documentation
+This guide covers diagnosing and fixing common issues with mobile devices, including app problems, updates, battery life, connectivity, and security threats. Start with basic steps like restarts and updates, then escalate to scans or resets if needed.
+
+App Issues
+Resolve problems with app loading or performance.
+Symptoms: Apps not loading or running slowly.
+Steps:
+Restart the phone (hold power button, power off).
+Stop and restart the app: iPhone (double-tap home/swipe up, slide app up); Android (Settings > Apps > select app > Force stop).
+Update the app to the latest version.
+
+App Fails to Close or Crashes
+Handle hanging or crashing apps.
+Symptoms: App hangs (others work) or crashes with/without errors.
+Steps:
+Restart the device to clear issues.
+Update the app for bug fixes.
+Delete and reinstall the app (back up data first).
+
+App Fails to Update
+Fix update failures for specific apps.
+Symptoms: One app won't update while others do.
+Steps:
+Manually check/update in the app store; ensure payment method is on file.
+Restart the device and retry.
+
+OS Fails to Update
+Address operating system update problems.
+Symptoms: OS won't update for new features, fixes, or security.
+Steps:
+Check storage; remove unused files/apps.
+Connect to Wi-Fi for better bandwidth.
+Try a different network; reboot device.
+
+Battery Life Issues
+Improve battery performance.
+Causes: Poor reception (searching for signal), aging battery, or enabled features.
+Steps:
+Use Airplane mode on the ground; disable Wi-Fi, Bluetooth, GPS.
+Check battery usage: iOS/iPadOS (Settings > Battery); Android (Settings > Battery).
+
+Random Reboots
+Investigate unexpected restarts.
+Symptoms: Device reboots randomly during use.
+Steps:
+Update OS and apps.
+Check battery health; contact support for crash logs.
+
+Connectivity Issues
+Fix Wi-Fi, Bluetooth, NFC, and AirDrop problems.
+Intermittent Wi-Fi: Move closer to access point or try another.
+No Wi-Fi: Enable Wi-Fi; check security key; hard reset wireless subsystem.
+No Bluetooth: Enable Bluetooth; check/pair devices; hard reset subsystem.
+NFC not working: Enable/disable NFC; reset device; re-add payment cards.
+AirDrop issues: Ensure devices <30 feet apart; enable Wi-Fi/Bluetooth; check discovery settings.
+
+Screen Does Not Autorotate
+Resolve rotation lock issues.
+Symptoms: Screen doesn't rotate with device orientation.
+Steps:
+Disable rotation lock.
+Restart the app or device.
+Contact support if no rotation occurs (possible sensor issue).
